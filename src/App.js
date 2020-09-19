@@ -20,7 +20,7 @@ class App extends Component {
           <Route exact path="/cart" component={Cart} />
           <Route exact path="/publish" component={Publish} />
           <Route exact path="/" component={Home} /> 
-          <Route component={Home} />
+          <Route component={Default} />
         </Switch>
         <Modal />
       </React.Fragment>
